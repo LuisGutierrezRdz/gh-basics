@@ -1,0 +1,11 @@
+name: Lifecycle
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Multiline
+        run: |
+          echo "Hello" 
+          echo "Bye"
