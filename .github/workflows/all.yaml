@@ -1,5 +1,6 @@
-name: Lifecycle
-on: push
+name: case1
+
+on: [push]
 
 jobs:
   test:
