@@ -1,10 +1,10 @@
 name: issue
 
-on: workflow_dispatch
+on: issues
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Print gre
-        run: echo "Hello World!"
+      - name: Print details
+        run: echo "${{toJson(github)}}"
