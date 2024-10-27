@@ -3,8 +3,8 @@ name: issue
 on: workflow_dispatch
 
 jobs:
-  first-job:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
+      - name: Print gre
         run: echo "Hello World!"
